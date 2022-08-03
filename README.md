@@ -5,11 +5,11 @@ This work establishes a decision support system for route planning for small and
 
 ## Entry points for running the code and executing experiments
 ### Set the parameters of the models
-./src/PARAMETERS.py
+./src/PARAMETERS.py <br />
 
 ### Execute incremental evaluation for both the routing and clustering problem
-./src/TEST_CLUSTERING.py
-./src/TEST_ROUTING.py
+./src/TEST_CLUSTERING.py <br />
+./src/TEST_ROUTING.py <br />
 
 ### Convert test results to LaTex tables:
 ./src/TEST_CLUSTERING_ANALYSIS.py
