@@ -12,25 +12,25 @@ This work establishes a decision support system for route planning for small and
 ./src/TEST_ROUTING.py <br />
 
 ### Convert test results to LaTex tables:
-./src/TEST_CLUSTERING_ANALYSIS.py
-./src/TEST_ROUTING_ANALYSIS.py
+./src/TEST_CLUSTERING_ANALYSIS.py <br />
+./src/TEST_ROUTING_ANALYSIS.py <br />
 
 ## Description of the classes
 ### Helper classes:
-CVRPInstance: Reads and processes data from dataset
-Solution: Converts dataset into a historical solution of a specific day (by number) with context
-Problem: Extracts context of a problem in the dataset
-DriverTour: Representation of a path in the CVRP solution
+CVRPInstance: Reads and processes data from dataset <br />
+Solution: Converts dataset into a historical solution of a specific day (by number) with context <br />
+Problem: Extracts context of a problem in the dataset <br />
+DriverTour: Representation of a path in the CVRP solution <br />
 
 ### Preference models:
-Routingmodel: preference model for routing with its own attributes
-ClusteringModel: preference model for clustering with its own attributes
+Routingmodel: preference model for routing with its own attributes <br />
+ClusteringModel: preference model for clustering with its own attributes <br />
 
-### Solvers:
-MIP_solver: for solving the CVRP with arc probabilities or objective costs
-RoutingSolverExhaustive: Exhaustive search through solution space
-RoutingSolverGenetic: Genetic algorithm for finding most preferred path
-ClusteringSolverILS: Iterated local search algorithm for finding clusters
+### Solvers: 
+MIP_solver: for solving the CVRP with arc probabilities or objective costs <br />
+RoutingSolverExhaustive: Exhaustive search through solution space <br />
+RoutingSolverGenetic: Genetic algorithm for finding most preferred path <br />
+ClusteringSolverILS: Iterated local search algorithm for finding clusters <br />
 
 
 Link to original research in dataset: https://github.com/JayMan91/CP2021-Data-Driven-VRP
